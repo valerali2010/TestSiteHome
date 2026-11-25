@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import RecipeRolling from './components/RecipeRolling'
 import {
   ArrowRight,
   ArrowUpRight,
@@ -201,6 +202,7 @@ function App() {
           </div>
         </section>
 
+        <RecipeRolling />
         <section className="recipes-section" id="recipes">
           <div className="recipes-heading">
             <div><p className="overline"><span />Наша коллекция</p><h2>Рецепты на каждый день</h2></div>
